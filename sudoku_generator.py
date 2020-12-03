@@ -15,6 +15,7 @@ difficulty = difficulties[sys.argv[2]]
 
 # constructing generator object from puzzle file (space delimited columns, line delimited rows)
 gen = Generator(sys.argv[1])
+print("änderung")
 
 # applying 100 random transformations to puzzle
 gen.randomize(100)
